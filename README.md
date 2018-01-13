@@ -1,5 +1,8 @@
-#VKey-Finder
+# VKey-Finder
 _Easily find the virtual key code (vkey) of any mouse click or keyboard stroke_
+
+[![Build Status](https://travis-ci.org/Jire/VKey-Finder.svg?branch=master)](https://travis-ci.org/Jire/VKey-Finder)
+[![License](https://img.shields.io/github/license/Jire/VKey-Finder.svg)](https://github.com/Jire/VKey-Finder/blob/master/LICENSE.txt)
 
 ```
 Copyright (c) 2018 Thomas G. P. Nappo (Jire)
