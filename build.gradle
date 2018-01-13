@@ -1,0 +1,39 @@
+buildscript {
+	repositories {
+		jcenter()
+	}
+	
+	dependencies {
+		classpath 'com.github.jengelman.gradle.plugins:shadow:2.0.0'
+	}
+}
+
+apply plugin: 'java'
+apply plugin: "application"
+apply plugin: "com.github.johnrengelman.shadow"
+
+group 'org.jire.vkeyfinder'
+version '1.0.0'
+
+sourceCompatibility = 1.6
+
+mainClassName = "org.jire.vkeyfinder.VKeyFinder"
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile group: 'com.1stleg', name: 'jnativehook', version: '2.1.0'
+}
+
+jar {
+	manifest {
+		attributes 'Main-Class': mainClassName
+	}
+}
+
+shadowJar {
+	baseName = 'VKeyFinder'
+	classifier = null
+}
