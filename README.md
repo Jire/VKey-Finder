@@ -8,6 +8,10 @@ Using _VKey-Finder_ is simple: You can either compile the project yourself using
 [download our latest release](https://github.com/Jire/VKey-Finder/releases/download/1.0.0/VKeyFinder-1.0.0.zip)
 which is precompiled, and includes run scripts for Windows, Mac, and GNU/Linux.
 
+---
+
+**Copyright** (MIT)
+
 ```
 Copyright (c) 2018 Thomas G. P. Nappo (Jire)
 
