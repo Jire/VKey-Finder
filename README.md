@@ -4,6 +4,10 @@ _Easily find the virtual key code (vkey) of any mouse click or keyboard stroke_
 [![Build Status](https://travis-ci.org/Jire/VKey-Finder.svg?branch=master)](https://travis-ci.org/Jire/VKey-Finder)
 [![License](https://img.shields.io/github/license/Jire/VKey-Finder.svg)](https://github.com/Jire/VKey-Finder/blob/master/LICENSE.txt)
 
+Using VKey-Finder is simple, you can either compile the project yourself using `gradlew shadowJar` or you can
+[download our latest release](https://github.com/Jire/VKey-Finder/releases/download/1.0.0/VKeyFinder-1.0.0.zip)
+which is precompiled, and includes run scripts for Windows, Mac, and GNU/Linux.
+
 ```
 Copyright (c) 2018 Thomas G. P. Nappo (Jire)
 
